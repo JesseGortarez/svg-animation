@@ -1,0 +1,35 @@
+/*@-webkit-keyframes fill {
+  from {
+    fill: #ffffff;
+  }
+  to {
+    fill: #3db249;
+  }
+}
+*/
+
+#Layer_1{
+  position: relative;
+  display: block;
+  max-height: 100%;
+  max-width: 50%;
+  margin: auto;
+}
+@-webkit-keyframes fill {
+  0% {
+    fill: #ffffff;
+  }
+  100% {
+    fill: #f6f6f6;
+  }
+}
+
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
